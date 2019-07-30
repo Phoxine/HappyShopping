@@ -8,7 +8,8 @@ tel varchar(10),
 addr varchar(100),
 rdate datetime,
 birthday datetime,
-sex varchar(6)
+gender varchar(6),
+memberImage IMAGE
 );
 
 CREATE TABLE vendor(
@@ -90,5 +91,7 @@ category varchar(20),
 sdate datetime,
 expdate datetime
 );
+
+SELECT * FROM Member m WHERE m.mId = 'peterchao' and m.password = 'a12345'
 
 SELECT COLUMN_Name ,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH ,IS_NULLABLE , COLUMN_DEFAULT FROM INFORMATION_SCHEMA.Columns Where Table_Name = 'member'
