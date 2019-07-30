@@ -24,7 +24,7 @@ c_tel varchar(10)
 
 CREATE TABLE product(
 pID decimal(4) identity PRIMARY KEY,
-pname varchar(100),
+pname varchar(200),
 price decimal(6),
 vID decimal(4) FOREIGN KEY REFERENCES vendor(vID),
 amount decimal(4),
