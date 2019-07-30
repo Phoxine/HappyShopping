@@ -27,7 +27,7 @@ pID decimal(4) identity PRIMARY KEY,
 pname varchar(100),
 price decimal(6),
 vID decimal(4) FOREIGN KEY REFERENCES vendor(vID),
-amount decimal(3),
+amount decimal(4),
 category varchar(20),
 sdate datetime,
 expdate datetime
