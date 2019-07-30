@@ -181,14 +181,14 @@ body {
   width: 100%;
   height: 15%;
   background-color:#ffffff;
-  border:1px solid #b3d4fc;
   padding-left: 20%;
   padding-right: 20%;
 }
 .div2{
   width: 100%;
-  height: 4%;
+  height: 40px;
   background-color:#000000; 
+  margin:0px auto;
 }
 .div3{
   width: 100%;
@@ -245,9 +245,7 @@ ul.option li a:hover {
 ul.option li:last-child { 
  border-bottom: 0;
 }
-.account {
-  margin-right: 20px;
-}
+
 .wishlist {
   margin-right: 20px;
 }
@@ -286,34 +284,39 @@ a.action:hover {
   color: #fa7c63;
 }
 .Test1 {
-  float: center;
   padding-top:8px;
-  margin-left:20%;
-
+  float:center;
+  margin-left:400px;
 }
 
 .Test1 >ul >li{
-  border-right: 1px solid #e1e1e1;
-  display: inline-block;
-  float:center;
-
   
+  display: inline-block;
 }
 .Test1 > ul > li:last-child {
   border-right: 0;
- 
+
 }
 .Test1 > ul > li > a {
-  display:block;
+  display:inline-block;
   font-size: 15px;
   text-decoration: none;
-  margin-left:10px;
   color:white;
+  margin-left:20px;
 
 }
 .Test1 > ul > li > a:hover {
   color: #fa7c63;
 }
+
+.botton > i {
+  font-size:60px;
+}
+
+ .account {
+  float:center;
+  margin-right: 12px;
+}    
 
 .Test2 {
   float: center;
@@ -350,11 +353,11 @@ a.action:hover {
 }
 .col1{
  float: left; 
- margin-top:-0.5%;
+
 }
 .col2{
   float: right; 
-  margin-top:-0.6%;
+
  }
 .imgright{
   float: right;
@@ -371,15 +374,15 @@ a.action:hover {
 }
 .imgleft{
   float: left;
-  width: 200px;
-  height: 120px;
+  width: 180px;
+  height: 50px;
   margin-top:20px
 }
 .imgleft1{
   float: left;
-  width:150px;
-  height:120px;
-  margin-top:30px;
+  width: 150px;
+  height:50px;
+  margin-top:25px;
   margin-left:20px;
 }
 .input1{
@@ -3274,7 +3277,7 @@ ul.social-icons li a:hover {
   background-color: #4c4c4c;
   color: #fff;
   padding-left:30px;
-  position:fixed; left:0; bottom:0;
+  position: absolute;
   width: 100%;
   height:410px;
 }
