@@ -1,0 +1,3 @@
+[submodule "model/jdbc"]
+	path = model/jdbc
+	url = https://github.com/Phoxine/jdbc.git
